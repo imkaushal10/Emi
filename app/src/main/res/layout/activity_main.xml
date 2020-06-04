@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10sp"
             android:inputType="numberDecimal"
-            android:background="@drawable/textview"
+
             />
 
     </LinearLayout>

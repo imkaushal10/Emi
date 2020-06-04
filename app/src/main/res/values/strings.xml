@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EMI Calculator</string>
+    <string name="principal">Principal Amount Rs :</string>
+    <string name="rate">Interest Rate (per Month) :</string>
+    <string name="time">Monthly Installments :</string>
+    <string name="btn">Calculate</string>
+    <string name="emi">EMI = </string>
+</resources>

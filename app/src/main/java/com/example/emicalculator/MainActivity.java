@@ -35,16 +35,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void emi(){
-        String emilabel = " ";
+        String emilabel = "";
         double p = Integer.parseInt(principal.getText().toString());
-        double r = (Integer.parseInt(rate.getText().toString()));
+        double r = Integer.parseInt(rate.getText().toString());
         double t = Integer.parseInt(nofmi.getText().toString());
         double ir = r/1200;
         double r1 = Math.pow(ir+1,t);
 
 //        double result = (double) ((ir+(ir/(r1-1))) * p*ir);
 
-        double result = (double) (p*ir*(r1/(r1-1)));
+        double result = (p*ir*(r1/(r1-1)));
 
         emilabel =  getString(R.string.emi) + result;
         emi.setText(new DecimalFormat("##.##").format(emilabel));
